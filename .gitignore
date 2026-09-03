@@ -1,0 +1,91 @@
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ---- Virtual environments ----
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- IDEs / editors ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---- Data (large / raw files not tracked) ----
+data/raw/
+data/interim/
+data/processed/
+data/external/
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.xlsx
+*.xls
+*.zip
+*.gz
+
+# ---- Models / outputs ----
+models/
+*.joblib
+*.pt
+*.pth
+*.onnx
+outputs/
+figures/
+reports/*.html
+
+# ---- Secrets / config ----
+.env.local
+secrets.yaml
+credentials.json
+*.key
+
+# ---- Misc ----
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+logs/
+*.log
